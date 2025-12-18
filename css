@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 40px;
+}
+
+h2 {
+  color: #2c7a7b;
+}
+
+input, button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  background: #2c7a7b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #225e61;
+}
+
+#error {
+  color: red;
+}
+
+img {
+  margin-top: 15px;
+  border-radius: 10px;
+}
