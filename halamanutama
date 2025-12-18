@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Daur Sampah</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Daur Sampah & Klasifikasi Sampah</h1>
+    <p>Mari peduli lingkungan dengan mengelola sampah dengan benar</p>
+</header>
+
+<section class="klasifikasi">
+    <h2>Klasifikasi Sampah</h2>
+
+    <div class="card">
+        <h3>Sampah Organik</h3>
+        <p>Sisa makanan, daun, dan bahan alami yang mudah terurai.</p>
+    </div>
+
+    <div class="card">
+        <h3>Sampah Anorganik</h3>
+        <p>Plastik, kaca, dan logam yang sulit terurai.</p>
+    </div>
+
+    <div class="card">
+        <h3>Sampah B3</h3>
+        <p>Bahan berbahaya seperti baterai dan limbah kimia.</p>
+    </div>
+</section>
+
+<section class="upload">
+    <h2>Unggah Produk Daur Ulang</h2>
+    <input type="file" accept="image/*" onchange="previewImage(event)">
+    <div id="preview"></div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
